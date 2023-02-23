@@ -56,12 +56,14 @@
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     let countdownTimer = select("#countdownTimer")
-    countdownTimer.innerHTML = `<span>${days}d ${hours}h ${minutes}m ${seconds}s</span>`;
+    if (countdownTimer) {
+      countdownTimer.innerHTML = `<span>${days}d ${hours}h ${minutes}m ${seconds}s</span>`;
 
-    // If the count down is finished, write some text
-    if (distance < 0) {
-      clearInterval(timer);
-      countdownTimer.innerHTML = "Happening now!";
+      // If the count down is finished, write some text
+      if (distance < 0) {
+        clearInterval(timer);
+        countdownTimer.innerHTML = "Happening now!";
+      }
     }
   }
 
