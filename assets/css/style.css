@@ -778,13 +778,6 @@ h6 {
   padding: 60px 0;
 }
 
-#speakers-details .details h2 {
-  color: #112363;
-  font-size: 2em;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
 #speakers-details .details .social {
   margin-bottom: 15px;
 }
@@ -814,9 +807,20 @@ h6 {
 }
 
 #speakers-details .details p {
-  color: #112363;
-  font-size: 1em;
+  font-size: 1.25em;
   margin-bottom: 10px;
+}
+
+#speakers-details p {
+  font-size: 1.25em;
+}
+
+.rules h2 {
+  font-size: 2em;
+}
+
+.details li{
+  font-size: 1.25em;
 }
 
 /*--------------------------------------------------------------
