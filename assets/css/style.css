@@ -11,7 +11,7 @@
 body {
   background: #fff;
   color: rgba(50, 50, 50, 0.98);
-  font-family: "Lora", sans-serif;
+  font-family: "Lora", sans-serif; /* Bubbler One */
   font-weight: 400;
 }
 
@@ -40,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Charm", sans-serif;
+  font-family: "Lora", sans-serif; /* Charm */
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -174,7 +174,7 @@ hr:after {
 #header #logo h1 {
   font-size: 2.5em;
   margin: 0;
-  font-family: "Charm", sans-serif;
+  font-family: "Lora", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
 }
@@ -265,7 +265,7 @@ hr:after {
   align-items: center;
   justify-content: space-between;
   color: rgba(202, 206, 221, 0.8);
-  font-family: "Bubbler One", sans-serif;
+  font-family: "Lora", sans-serif; /* Bubbler One */
   font-weight: 400;
   font-size: 1.25em;
   white-space: nowrap;
@@ -537,7 +537,7 @@ hr:after {
 
 #hero h1 {
   color: #fff;
-  font-family: "Charm", sans-serif;
+  font-family: "Lora", sans-serif;
   font-size: 4em;
   font-weight: 600;
 }
@@ -640,7 +640,7 @@ hr:after {
 }
 
 #hero .about-btn {
-  font-family: "Bubbler One", sans-serif;
+  font-family: "Lora", sans-serif; /* Bubbler One */
   font-weight: 400;
   font-size: 1.25em;
   letter-spacing: 1px;
@@ -1564,7 +1564,7 @@ hr:after {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Charm", sans-serif;
+  font-family: "Lora", sans-serif;
   font-weight: 700;
   color: #fff;
 }
@@ -1578,7 +1578,7 @@ hr:after {
   font-size: 1em;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Charm", sans-serif;
+  font-family: "Lora", sans-serif;
   color: #fff;
 }
 
