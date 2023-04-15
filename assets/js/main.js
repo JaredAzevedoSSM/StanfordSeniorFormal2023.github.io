@@ -43,32 +43,32 @@
   /**
    * Countdown timer
    */
-  const countDownDate = new Date("April 14, 2023 21:00:00").getTime();
+  // const countDownDate = new Date("April 14, 2023 21:00:00").getTime();
 
-  const countdownTimerUpdate = function() {
-    const now = new Date().getTime();
+  // const countdownTimerUpdate = function() {
+  //   const now = new Date().getTime();
 
-    const distance = countDownDate - now;
+  //   const distance = countDownDate - now;
 
-    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  //   const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  //   const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  //   const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  //   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    let countdownTimer = select("#countdownTimer")
-    if (countdownTimer) {
-      countdownTimer.innerHTML = `<span>${days}d ${hours}h ${minutes}m ${seconds}s</span>`;
+  //   let countdownTimer = select("#countdownTimer")
+  //   if (countdownTimer) {
+  //     countdownTimer.innerHTML = `<span>${days}d ${hours}h ${minutes}m ${seconds}s</span>`;
 
-      // If the count down is finished, write some text
-      if (distance < 0) {
-        clearInterval(timer);
-        countdownTimer.innerHTML = "Happening now!";
-      }
-    }
-  }
+  //     // If the count down is finished, write some text
+  //     if (distance < 0) {
+  //       clearInterval(timer);
+  //       countdownTimer.innerHTML = "Happening now!";
+  //     }
+  //   }
+  // }
 
-  countdownTimerUpdate()
-  let timer = setInterval(countdownTimerUpdate, 1000);
+  // countdownTimerUpdate()
+  // let timer = setInterval(countdownTimerUpdate, 1000);
 
   /**
    * Navbar links active state on scroll
